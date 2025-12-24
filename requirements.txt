@@ -1,0 +1,10 @@
+streamlit
+groq
+yt-dlp
+moviepy
+qdrant-client
+sentence-transformers
+openai-whisper
+numpy
+Pillow
+torch
