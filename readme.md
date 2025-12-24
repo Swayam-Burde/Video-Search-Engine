@@ -57,6 +57,8 @@ Run the application locally:
 ```bash
 streamlit run app.py
 ```
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -71,3 +73,14 @@ streamlit run app.py
 └── .gitignore             # Ignored files (temp data, secrets)
 ```
 
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
+
+* **Fork the Project**
+* **Create your Feature Branch** (git checkout -b feature/AmazingFeature)
+* **Commit your Changes** (git commit -m 'Add some AmazingFeature')
+* **Push to the Branch** (git push origin feature/AmazingFeature)
+* **Open a Pull Request**
+
+---
