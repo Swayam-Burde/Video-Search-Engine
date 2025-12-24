@@ -56,30 +56,3 @@ Run the application locally:
 
 ```bash
 streamlit run app.py
-
----
-
-📂 Project Structure
-
-├── app.py                 # Main application dashboard
-├── requirements.txt       # Python dependencies
-├── ml_engine/             # Core ML Modules
-│   ├── downloader.py      # YouTube/File handling
-│   ├── processing.py      # Video frame extraction
-│   ├── audio.py           # Whisper transcription
-│   ├── vision.py          # CLIP embedding generation
-│   └── store.py           # Qdrant Vector DB management
-└── .gitignore             # Ignored files (temp data, secrets)
-
-
-🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements.
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
