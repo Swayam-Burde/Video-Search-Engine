@@ -101,7 +101,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Key
-GROQ_API_KEY = "Enter your API Key Here"
+GROQ_API_KEY = "Enter your GROQ API Key Here"
 
 # Helper Function: Time Formatting
 def format_time(seconds):
@@ -169,7 +169,7 @@ if st.session_state.page == "landing":
         # Launch Button
         _, btn_col, _ = st.columns([1, 2, 1])
         with btn_col:
-            st.button("✨ Launch Platform", on_click=go_to_main, use_container_width=True)
+            st.button("Get Started", on_click=go_to_main, use_container_width=True)
 
     st.markdown('</div>', unsafe_allow_html=True) # End Animation Container
 
