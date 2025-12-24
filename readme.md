@@ -1,8 +1,5 @@
 # ⚡ VideoIQ Pro
 
-![App Screenshot](<Screenshot 2025-12-24 230757.png>)
-![App Screenshot](<Screenshot 2025-12-24 230815.png>)
-
 **Next-Gen Video Intelligence Platform**
 
 VideoIQ Pro is an AI-powered video analysis dashboard that transforms raw video content into searchable, actionable intelligence. By leveraging multimodal AI (Audio + Vision), it allows users to perform semantic searches, extract exact spoken quotes, and generate narrative summaries from video files or YouTube links.
@@ -60,8 +57,9 @@ Run the application locally:
 ```bash
 streamlit run app.py
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 ├── app.py                 # Main application dashboard
 ├── requirements.txt       # Python dependencies
 ├── ml_engine/             # Core ML Modules
@@ -71,6 +69,7 @@ streamlit run app.py
 │   ├── vision.py          # CLIP embedding generation
 │   └── store.py           # Qdrant Vector DB management
 └── .gitignore             # Ignored files (temp data, secrets)
+
 
 🤝 Contributing
 
