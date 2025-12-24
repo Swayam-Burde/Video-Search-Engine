@@ -56,3 +56,16 @@ Run the application locally:
 
 ```bash
 streamlit run app.py
+
+
+📂 Project Structure
+
+├── app.py                 # Main application dashboard
+├── requirements.txt       # Python dependencies
+├── ml_engine/             # Core ML Modules
+│   ├── downloader.py      # YouTube/File handling
+│   ├── processing.py      # Video frame extraction
+│   ├── audio.py           # Whisper transcription
+│   ├── vision.py          # CLIP embedding generation
+│   └── store.py           # Qdrant Vector DB management
+└── .gitignore             # Ignored files (temp data, secrets)
