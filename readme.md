@@ -56,10 +56,10 @@ Run the application locally:
 
 ```bash
 streamlit run app.py
+```
+## 📂 Project Structure
 
-
-📂 Project Structure
-
+```text
 ├── app.py                 # Main application dashboard
 ├── requirements.txt       # Python dependencies
 ├── ml_engine/             # Core ML Modules
@@ -69,3 +69,5 @@ streamlit run app.py
 │   ├── vision.py          # CLIP embedding generation
 │   └── store.py           # Qdrant Vector DB management
 └── .gitignore             # Ignored files (temp data, secrets)
+```
+
